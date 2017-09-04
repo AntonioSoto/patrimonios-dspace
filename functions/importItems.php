@@ -56,8 +56,8 @@
                     array( 'key' => 'arq.BienesObserv', 'value' => $Row[177] ),
                     array( 'key' => 'arq.GoogleUbic', 'value' =>
                         'https://www.google.com.mx/maps/place/'
-                        .urlencode(readRadioButton(17, 23, $Row)).' de '.urlencode($Row[0]).', '
-                        .urlencode($Row[7]).', '.urlencode($Row[8]).', '.urlencode($Row[9]).
+                        .readRadioButton(17, 23, $Row).' de '
+                        .$Row[0].', '.$Row[7].', '.$Row[8].', '.$Row[9].
                         '/'
                     )
                 )
