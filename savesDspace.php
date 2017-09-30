@@ -2,6 +2,7 @@
 
     include 'functions/dspaceFunctions.php';
     include 'functions/importItems.php';
+    include 'functions/refreshItems.php';
     include 'functions/importBitstreams.php';
     include 'functions/deleteItems.php';
 
@@ -30,6 +31,15 @@
         global $output;
 
         processImportItems();
+
+        $output = "Éxito.";
+    }
+
+    if( isset($_REQUEST["btn_refreshItems"]) ){
+
+        global $output;
+
+        processRefreshItems();
 
         $output = "Éxito.";
     }
@@ -107,6 +117,15 @@
         importItems($jsessionID);
     }
 
+    function processRefreshItems(){
+
+        // *** ACTUALIZAR METADATOS DE EXCEL ***
+        $jsessionID = getUserSessionID();
+        loginToDspace();
+
+        updateAllItems($jsessionID);
+    }
+
     function processImportBitstreams(){
 
         // *** IMPORTAR BITSTREAMS DE EXCEL ***
@@ -124,7 +143,7 @@
 
         $ids = getIdsAndNames($jsessionID);
 
-        deleteItems($ids, $jsessionID);
+        deleteAllItems($ids, $jsessionID);
     }
 
     echo "<p>".$output."</p>";

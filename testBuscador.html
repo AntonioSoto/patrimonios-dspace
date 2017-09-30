@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscador SOLR</title>
+</head>
+<body>
+
+<form name="formSearch" method="get" action="phpBuscador/busqueda.php">
+
+    <table border="1">
+        <tr>
+            <td>Consulta: </td>
+            <td><input type="text" name="consulta" size="25"></td>
+        </tr>
+        <tr>
+            <td>Modelo: </td>
+            <td><input type="text" name="modelo" size="25"></td>
+        </tr>
+        <tr>
+            <td>Plataforma: </td>
+            <td><input type="text" name="plataforma" size="25"></td>
+        </tr>
+        <tr>
+            <td>Facultad: </td>
+            <td><input type="text" name="facultad" size="25"></td>
+        </tr>
+    </table>
+
+    <input type="submit" name="btnBuscar" value="Buscar">
+
+</form>
+
+</body>
+</html>

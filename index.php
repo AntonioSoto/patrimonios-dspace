@@ -136,6 +136,21 @@
             <table border="1">
 
                 <tr>
+                    <td>Metadatos en Excel: </td>
+                    <td><input name="excelFile" type="file" id="excelFile"/></td>
+                </tr>
+
+            </table>
+
+            <input type="submit" name="btn_refreshItems" value="Actualizar datos de Excel a Dspace">
+
+        </form>
+
+        <form name="forma5" method="post" action="savesDspace.php" enctype="multipart/form-data">
+
+            <table border="1">
+
+                <tr>
                     <td>Fotos/Archivos en Excel: </td>
                     <td><input name="excelFile" type="file" id="excelFile"/></td>
                 </tr>

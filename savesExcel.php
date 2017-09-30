@@ -1,6 +1,6 @@
 <?php
 
-    include 'functions/dspaceFunctionsExport.php';
+    include 'functions/exportFunctions.php';
 
     if( isset($_REQUEST["btn_excel"]) ){
 

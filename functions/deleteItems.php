@@ -1,6 +1,6 @@
 <?php
 
-    function deleteItems($ids, $jsessionID){
+    function deleteAllItems($ids, $jsessionID){
 
         $listOfItems = json_decode($ids,true);
 
