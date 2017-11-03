@@ -4,6 +4,8 @@
 
     function importItems($jsessionID){
 
+        set_time_limit(0);
+
         $currentDate = getdate(date("U"));
         $dspaceDate = "$currentDate[year]-$currentDate[mon]-$currentDate[mday]";
 
@@ -24,7 +26,7 @@
 
             $params['body'] = array(
                 'metadata' => array(
-                    array( 'key' => 'dc.creator', 'value' => 'User' ),
+                    array( 'key' => 'dc.creator', 'value' => $Row[9] ),
                     array( 'key' => 'dc.title', 'value' => $Row[0] ),
                     array( 'key' => 'dc.date', 'value' => $dspaceDate ),
                     array( 'key' => 'arq.Nombre', 'value' => $Row[0] ),
@@ -60,7 +62,6 @@
                     array( 'key' => 'arq.GoogleUbic', 'value' =>
                         'https://www.google.com.mx/maps/place/'.
                         urlencode(
-                            readRadioButton(17, 23, $Row).' de '.
                             $Row[0].', '.$Row[7].', '.$Row[8].', '.$Row[9]
                         )
                     )
@@ -71,6 +72,8 @@
 
             $collectionID = chooseEntidad($Row[9]);
             uploadItem($jsonItem, $collectionID, $jsessionID);
+
+
         }
         postChecklistData($jsessionID);
     }
@@ -98,22 +101,18 @@
         $listOfItems = json_decode($ids,true);
         //var_dump($listOfItems);
 
+        $i = 0;
         $Reader = new SpreadsheetReader_XLSX($_FILES["excelFile"]["tmp_name"]);
         foreach ($Reader as $Row) {
 
-            for($i=0; $i < count($listOfItems); $i++){
-
-                if( $listOfItems[$i]["name"] == $Row[0] ){
-
-                    readChecklist(2, 6, $Row, "arq.Pertenencia", $listOfItems[$i]['uuid'], $jsessionID );
-                    readChecklist(31, 36, $Row, "arq.Epoca", $listOfItems[$i]['uuid'], $jsessionID );
-                    readChecklist(121, 146, $Row, "arq.SisEstructPresbiterio", $listOfItems[$i]['uuid'], $jsessionID );
-                    readChecklist(165, 174, $Row, "arq.Pisos", $listOfItems[$i]['uuid'], $jsessionID );
-                    readChecklist(175, 179, $Row, "arq.Acabados", $listOfItems[$i]['uuid'], $jsessionID );
-                    readChecklist(180, 185, $Row, "arq.Materiales", $listOfItems[$i]['uuid'], $jsessionID );
-                    readChecklist(191, 198, $Row, "arq.Bienes", $listOfItems[$i]['uuid'], $jsessionID );
-                }
-            }
+            readChecklist(2, 6, $Row, "arq.Pertenencia", $listOfItems[$i]['uuid'], $jsessionID );
+            readChecklist(31, 36, $Row, "arq.Epoca", $listOfItems[$i]['uuid'], $jsessionID );
+            readChecklist(121, 146, $Row, "arq.SisEstructPresbiterio", $listOfItems[$i]['uuid'], $jsessionID );
+            readChecklist(165, 174, $Row, "arq.Pisos", $listOfItems[$i]['uuid'], $jsessionID );
+            readChecklist(175, 179, $Row, "arq.Acabados", $listOfItems[$i]['uuid'], $jsessionID );
+            readChecklist(180, 185, $Row, "arq.Materiales", $listOfItems[$i]['uuid'], $jsessionID );
+            readChecklist(191, 198, $Row, "arq.Bienes", $listOfItems[$i]['uuid'], $jsessionID );
+            $i++;
         }
     }
 

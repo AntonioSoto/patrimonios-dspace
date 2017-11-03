@@ -2,15 +2,147 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="333f6bf9-ddaf-40a4-8659-c180de8bb9b4" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/functions/dspaceFunctionsExport.php" afterPath="$PROJECT_DIR$/functions/exportFunctions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Columns.xlsx" afterPath="$PROJECT_DIR$/Columns.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CALOTMUL._San_Esteban/._PLANOS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CALOTMUL._San_Esteban/PLANOS/._5.PLANTA SAN ESTEBAN CALOTMUL.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CALOTMUL._San_Esteban/PLANOS/5.PLANTA_SAN_ESTEBAN_CALOTMUL.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/._FOTOGRAFÍAS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Acceso al coro.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Acceso principal.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Arco formero.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Arcos formeros.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Boveda de rollizos 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Bóveda de rollizos 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Bóveda de rollizos apoyados en arcos fajones 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Bóveda de rollizos apoyados en arcos fajones 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Coro 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Coro 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Coro 03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Coro 04.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Coro 05.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Cubierta del presbiterio.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Cubiertas de la nave y el presbiterio.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de contrafuerte.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de fachada.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de la imagen de Santiago Matamoros.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de muro.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de puerta.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de rollizos 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de rollizos 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de rollizos 03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de rollizos 04.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de rollizos 05.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de rollizos 06.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Detalle de ventana.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Escalera de caracol 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Escalera de caracol 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Escalera de caracol 03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Escalera de caracol 04.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Ex convento 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Ex convento 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Exterior.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Fachada 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Fachada 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Fachada 03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Imagen de Santiago Matamoros.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Muro lateral 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Muro lateral 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Muro lateral 03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Muro lateral 04.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Puerta 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Puerta 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Retablo 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Retablo 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Rollizos 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Rollizos 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Ventana 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Ventana 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Ventana de fachada.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Vista hacia el coro.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Vista hacia el presbiterio.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Vista inferior del coro 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Vista inferior del coro 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IGLESIA DE CHOCHOLÁ Vista inferior del coro.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IMG_0296.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IMG_0297.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IMG_0298.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IMG_0299.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/._IMG_0315.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Acceso_al_coro.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Acceso_principal.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Arco_formero.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Arcos_formeros.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Boveda_de_rollizos_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Boveda_de_rollizos_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Boveda_de_rollizos_apoyados_en_arcos_fajones_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Boveda_de_rollizos_apoyados_en_arcos_fajones_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Coro_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Coro_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Coro_03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Coro_04.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Coro_05.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Cubierta_del_presbiterio.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Cubiertas_de_la_nave_y_el_presbiterio.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_contrafuerte.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_fachada.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_la_imagen_de_Santiago_Matamoros.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_muro.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_puerta.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_rollizos_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_rollizos_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_rollizos_03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_rollizos_04.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_rollizos_05.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_rollizos_06.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Detalle_de_ventana.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Escalera_de_caracol_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Escalera_de_caracol_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Escalera_de_caracol_03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Escalera_de_caracol_04.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Ex_convento_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Ex_convento_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Exterior.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Fachada_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Fachada_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Fachada_03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Imagen_de_Santiago_Matamoros.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Muro_lateral_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Muro_lateral_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Muro_lateral_03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Muro_lateral_04.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Puerta_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Puerta_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Retablo_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Retablo_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Rollizos_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Rollizos_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Ventana_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Ventana_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Ventana_de_fachada.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Vista_hacia_el_coro.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Vista_hacia_el_presbiterio.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Vista_inferior_del_coro.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Vista_inferior_del_coro_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IGLESIA_DE_CHOCHOLA_Vista_inferior_del_coro_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IMG_0296.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IMG_0297.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IMG_0298.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IMG_0299.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHOCHOLA._La_Purisima_Concepcion/FOTOGRAFIAS/IMG_0315.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHUMAYEL._La_Purisima_Concepcion/._IGLESIA DE CHUMAYEL Espadaña.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHUMAYEL._La_Purisima_Concepcion/._IGLESIA DE CHUMAYEL Exterior 01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHUMAYEL._La_Purisima_Concepcion/._IGLESIA DE CHUMAYEL Exterior 02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHUMAYEL._La_Purisima_Concepcion/._IGLESIA DE CHUMAYEL Exterior 03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHUMAYEL._La_Purisima_Concepcion/IGLESIA_DE_CHUMAYEL_Espadana.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHUMAYEL._La_Purisima_Concepcion/IGLESIA_DE_CHUMAYEL_Exterior_01.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHUMAYEL._La_Purisima_Concepcion/IGLESIA_DE_CHUMAYEL_Exterior_02.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CHUMAYEL._La_Purisima_Concepcion/IGLESIA_DE_CHUMAYEL_Exterior_03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CONKAL._San_Francisco_de_Asis/._DOCUMENTOS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CONKAL._San_Francisco_de_Asis/DOCUMENTOS/._Crónica convento Conkal.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB_Fotos/CONKAL._San_Francisco_de_Asis/DOCUMENTOS/Cronica_convento_Conkal.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/deleteItems.php" afterPath="$PROJECT_DIR$/functions/deleteItems.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/dspaceFunctions.php" afterPath="$PROJECT_DIR$/functions/dspaceFunctions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/importBitstreams.php" afterPath="$PROJECT_DIR$/functions/importBitstreams.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/importItems.php" afterPath="$PROJECT_DIR$/functions/importItems.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/savesDspace.php" afterPath="$PROJECT_DIR$/savesDspace.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/savesExcel.php" afterPath="$PROJECT_DIR$/savesExcel.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,7 +191,6 @@
         <option value="$PROJECT_DIR$/importItems.php" />
         <option value="$PROJECT_DIR$/functions/dspaceFunctionsExport.php" />
         <option value="$PROJECT_DIR$/savesExcel.php" />
-        <option value="$PROJECT_DIR$/functions/importBitstreams.php" />
         <option value="$PROJECT_DIR$/dspaceVariables.php" />
         <option value="$PROJECT_DIR$/testBuscador.html" />
         <option value="$PROJECT_DIR$/functions/deleteItems.php" />
@@ -69,6 +200,7 @@
         <option value="$PROJECT_DIR$/functions/refreshItems.php" />
         <option value="$PROJECT_DIR$/functions/dspaceFunctions.php" />
         <option value="$PROJECT_DIR$/functions/importItems.php" />
+        <option value="$PROJECT_DIR$/functions/importBitstreams.php" />
       </list>
     </option>
   </component>
@@ -100,6 +232,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -128,8 +262,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,17 +379,22 @@
       <workItem from="1506629472010" duration="6089000" />
       <workItem from="1506696476233" duration="14302000" />
       <workItem from="1506766800607" duration="5071000" />
+      <workItem from="1507224686829" duration="4582000" />
+      <workItem from="1508087661042" duration="316000" />
+      <workItem from="1508342013967" duration="11922000" />
+      <workItem from="1508493340317" duration="219000" />
+      <workItem from="1509724837641" duration="201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160436000" />
+    <option name="totallyTimeSpent" value="177676000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15739386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1669107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -293,7 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -301,7 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -309,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -317,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -325,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -333,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -341,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -349,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -378,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -386,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -394,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="17" lean-forward="true" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -402,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -438,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -482,19 +605,10 @@
     <entry file="file://$PROJECT_DIR$/importExcel.php" />
     <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/_style.scss" />
-    <entry file="file://$PROJECT_DIR$/functions/importBitstreams.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/savesExcel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -511,58 +625,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="146" column="15" lean-forward="true" selection-start-line="146" selection-start-column="15" selection-end-line="146" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/savesDspace.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/exportFunctions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/refreshItems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/deleteItems.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="161" column="15" lean-forward="false" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/savesDspace.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="134" column="18" lean-forward="false" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/refreshItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/dspaceFunctions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="221" column="47" lean-forward="false" selection-start-line="221" selection-start-column="47" selection-end-line="221" selection-end-column="47" />
+        <state relative-caret-position="17">
+          <caret line="185" column="55" lean-forward="true" selection-start-line="185" selection-start-column="55" selection-end-line="185" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/importItems.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="94" column="44" lean-forward="true" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/importBitstreams.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>

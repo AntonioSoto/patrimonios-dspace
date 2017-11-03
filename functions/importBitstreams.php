@@ -8,23 +8,19 @@
         $Reader = new SpreadsheetReader_XLSX($_FILES["excelFile"]["tmp_name"]);
         foreach ($Reader as $Row) {
 
-            $rowlength = (count($Row) - 2) / 2;
-            $filename = 0;
-            $filepath = 1;
-            for($i = 0; $i < $rowlength; $i++){
-
-                $filename = $filename + 2;
-                $filepath = $filepath + 2;
-                uploadPhotoExcel($Row[0],$Row[1],$Row[$filename],$Row[$filepath],$jsessionID);
+            echo "$Row[0], $Row[1], $Row[2], $Row[3]";
+            if($Row[3] != ""){
+                uploadPhotoExcel($Row[0],$Row[1],$Row[2],$Row[3],$jsessionID);
             }
         }
     }
 
     function uploadPhotoExcel($itemId, $itemDescription, $filename, $filepath, $jsessionID){
 
+        $name = urlencode($filename);
         $description = urlencode($itemDescription);
 
-        $url = "http://localhost:8080/rest/items/$itemId/bitstreams?name=$filename&description=$description";
+        $url = "http://localhost:8080/rest/items/$itemId/bitstreams?name=$name&description=$description";
 
         $ch = curl_init($url);
 
@@ -34,7 +30,8 @@
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, file_get_contents($filepath));
+        //curl_setopt($ch, CURLOPT_POSTFIELDS, file_get_contents($filepath));
+        curl_setopt($ch, CURLOPT_POSTFIELDS, file_get_contents( realpath($filepath) ));
 
         curl_setopt($ch, CURLOPT_COOKIE, $cookieses);
 

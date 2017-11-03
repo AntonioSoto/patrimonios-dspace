@@ -117,7 +117,6 @@
         curl_setopt($ch, CURLOPT_POSTFIELDS, $dspaceItem); // Metadatos del item que será enviado a dspace en formato Json, con la estructura que dspace espera.
         curl_setopt($ch, CURLOPT_HTTPHEADER, $header); //prepara las cabeceras para la petición  httprequest.
         curl_setopt($ch, CURLOPT_COOKIE, $cookieses);
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT ,0);
 
         $dspaceItem = curl_exec($ch); //ejecuta la petición httprequest
 
@@ -155,7 +154,6 @@
         curl_setopt($ch, CURLOPT_POSTFIELDS, $itemMetadata);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
         curl_setopt($ch, CURLOPT_COOKIE, $cookieses);
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT ,0);
 
         $dspaceItem = curl_exec($ch);
 
@@ -218,8 +216,6 @@
 
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_COOKIE, $cookieses);
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT ,0);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 400);
 
         $result = curl_exec($ch);
 
