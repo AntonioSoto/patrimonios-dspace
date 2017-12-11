@@ -166,6 +166,37 @@
         return $dspaceItem;
     }
 
+    function updateItem($dspaceItem, $itemId, $jsessionID){
+
+        $url = "http://localhost:8080/rest/items/$itemId/metadata";
+
+        $ch = curl_init($url);
+
+        $header = array(
+            "Content-type: application/json",
+            "Accept: application/json"
+        );
+
+        $cookieses = "JSESSIONID=".$jsessionID;
+
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+        curl_setopt($ch, CURLOPT_HEADER, false);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $dspaceItem);
+        curl_setopt($ch, CURLOPT_COOKIE, $cookieses);
+
+        $dspaceItem = curl_exec($ch);
+
+        if (curl_getinfo($ch, CURLINFO_HTTP_CODE) != '200'){
+            echo curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            exit();
+        }
+
+        curl_close($ch);
+        return $dspaceItem;
+    }
+
     function uploadPhoto($itemId, $itemDescription, $jsessionID){
 
         $filename = $_FILES['file']['name'];
@@ -209,6 +240,29 @@
     function getIdsAndNames($jsessionID){
 
         $url = "http://localhost:8080/rest/items/?limit=200";
+
+        $ch = curl_init($url);
+
+        $cookieses = "JSESSIONID=".$jsessionID;
+
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_COOKIE, $cookieses);
+
+        $result = curl_exec($ch);
+
+        if (curl_getinfo($ch, CURLINFO_HTTP_CODE) != '200'){
+            //throw $this->getException($ch);
+            echo curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            exit();
+        }
+
+        curl_close($ch);
+        return $result;
+    }
+
+    function getItemMetadata($itemId, $jsessionID){
+
+        $url = "http://localhost:8080/rest/items/$itemId/metadata";
 
         $ch = curl_init($url);
 

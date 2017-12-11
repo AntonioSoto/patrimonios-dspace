@@ -2,6 +2,8 @@
 
     function deleteAllItems($ids, $jsessionID){
 
+        set_time_limit(0);
+
         $listOfItems = json_decode($ids,true);
 
         for($i=0; $i < count($listOfItems); $i++){

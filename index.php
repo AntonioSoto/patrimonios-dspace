@@ -91,7 +91,7 @@
 		</form>
         -->
 
-        <form name="forma2" method="post" action="savesDspace.php" enctype="multipart/form-data">
+        <!--<form name="forma2" method="post" action="savesDspace.php" enctype="multipart/form-data">
 
             <table border="1">
 
@@ -114,9 +114,9 @@
 
             <input type="submit" name="btn_subirFoto" value="Subir foto">
 
-        </form>
+        </form>-->
 
-        <form name="forma3" method="post" action="savesDspace.php" enctype="multipart/form-data">
+        <form name="forma1" method="post" action="savesDspace.php" enctype="multipart/form-data">
 
             <table border="1">
 
@@ -131,7 +131,7 @@
 
         </form>
 
-        <form name="forma4" method="post" action="savesDspace.php" enctype="multipart/form-data">
+        <form name="forma2" method="post" action="savesDspace.php" enctype="multipart/form-data">
 
             <table border="1">
 
@@ -146,7 +146,7 @@
 
         </form>
 
-        <form name="forma5" method="post" action="savesDspace.php" enctype="multipart/form-data">
+        <form name="forma3" method="post" action="savesDspace.php" enctype="multipart/form-data">
 
             <table border="1">
 
@@ -161,15 +161,21 @@
 
         </form>
 
-        <form method="post" action="savesExcel.php">
+        <!--<form method="post" action="savesExcel.php">
 
             <input type="submit" name="btn_excel" value="Exportar datos de Dspace a Excel">
+
+        </form>-->
+
+        <form method="post" action="savesDspace.php">
+
+            <input type="submit" name="btn_deleteItems" value="Eliminar todos los items de Dspace">
 
         </form>
 
         <form method="post" action="savesDspace.php">
 
-            <input type="submit" name="btn_deleteItems" value="Eliminar todos los items de Dspace">
+            <input type="submit" name="btn_insertLatLngs" value="Aplicar lat y lng a todos los items de Dspace">
 
         </form>
 		

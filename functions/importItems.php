@@ -62,7 +62,7 @@
                     array( 'key' => 'arq.GoogleUbic', 'value' =>
                         'https://www.google.com.mx/maps/place/'.
                         urlencode(
-                            $Row[0].', '.$Row[7].', '.$Row[8].', '.$Row[9]
+                            readRadioButton(17, 23, $Row).', '.$Row[0].', '.$Row[7].', '.$Row[8].', '.$Row[9]
                         )
                     )
                 )
