@@ -1,13 +1,32 @@
 <?php
 
+    include 'dspaceFunctions.php';
+
+    $output = "";
     $Columns = array();
 
-    function importItems($jsessionID){
+    // *** ACTUALIZAR METADATOS DE EXCEL ***
+    $jsessionID = getUserSessionID();
+    loginToDspace();
+    updateItems($jsessionID);
 
-        set_time_limit(0);
+    $output = "Éxito.";
+
+    function updateItems($jsessionID){
 
         $currentDate = getdate(date("U"));
         $dspaceDate = "$currentDate[year]-$currentDate[mon]-$currentDate[mday]";
+
+        $ids = getItems($jsessionID);
+        $listOfItems = json_decode($ids,true);
+        $i=0;
+
+        /*$listOfMetadatas[] = null;
+        for($i=0; $i < count($listOfItems); $i++){
+
+            $metadatas = json_decode(getItemMetadata($listOfItems[$i]['uuid'], $jsessionID), true);
+            $listOfMetadatas[$i] = $metadatas;
+        }*/
 
         require('spreadsheet-reader-master/php-excel-reader/excel_reader2.php');
         require('spreadsheet-reader-master/SpreadsheetReader_XLSX.php');
@@ -15,7 +34,6 @@
         $Reader = new SpreadsheetReader_XLSX("Columns.xlsx");
         global $Columns;
         foreach ($Reader as $Row){
-            //print_r($Row);
             $Columns = $Row;
         }
         //print_r($Columns);
@@ -23,7 +41,6 @@
         $Reader = new SpreadsheetReader_XLSX($_FILES["excelFile"]["tmp_name"]);
         foreach ($Reader as $Row) {
             //print_r($Row);
-
             $params['body'] = array(
                 'metadata' => array(
                     array( 'key' => 'dc.creator', 'value' => $Row[9] ),
@@ -70,80 +87,36 @@
             $jsonItem = json_encode($params['body']);
             //echo $jsonItem;
 
-            $collectionID = chooseEntidad($Row[9]);
-            uploadItem($jsonItem, $collectionID, $jsessionID);
+            /*for($i=0; $i < count($listOfMetadatas); $i++){
 
+                for($j=0; $j < count($listOfMetadatas[$i]); $j++){
+                    //print_r($listOfMetadatas[$i][$j]);
+                    if( $listOfMetadatas[$i][$j]['key'] == 'arq.Nombre' ){
+                        if($listOfMetadatas[$i][$j]['value'] == $Row[0]){
 
-        }
-        postChecklistData($jsessionID);
-    }
-
-    function chooseEntidad($entidad){
-        switch ($entidad){
-            case "Yucatán":
-                return "0a7e8fc5-2334-4a17-9ccc-9c9afb31f6c3";
-                break;
-            case "Campeche":
-                return "691688c9-0e76-4a85-901a-1f7b4d45f37f";
-                break;
-            case "Quintana Roo":
-                return "2d1e2449-f748-4127-92db-91b908b106ea";
-                break;
-            default:
-                break;
-        }
-        return "";
-    }
-
-    function postChecklistData($jsessionID){
-
-        $ids = getIdsAndNames($jsessionID);
-        $listOfItems = json_decode($ids,true);
-        //var_dump($listOfItems);
-
-        $i = 0;
-        $Reader = new SpreadsheetReader_XLSX($_FILES["excelFile"]["tmp_name"]);
-        foreach ($Reader as $Row) {
-
-            readChecklist(2, 6, $Row, "arq.Pertenencia", $listOfItems[$i]['uuid'], $jsessionID );
-            readChecklist(31, 36, $Row, "arq.Epoca", $listOfItems[$i]['uuid'], $jsessionID );
-            readChecklist(121, 146, $Row, "arq.SisEstructPresbiterio", $listOfItems[$i]['uuid'], $jsessionID );
-            readChecklist(165, 174, $Row, "arq.Pisos", $listOfItems[$i]['uuid'], $jsessionID );
-            readChecklist(175, 179, $Row, "arq.Acabados", $listOfItems[$i]['uuid'], $jsessionID );
-            readChecklist(180, 185, $Row, "arq.Materiales", $listOfItems[$i]['uuid'], $jsessionID );
-            readChecklist(191, 198, $Row, "arq.Bienes", $listOfItems[$i]['uuid'], $jsessionID );
+                        }
+                    }
+                }
+            }*/
+            updateItem($jsonItem, $listOfItems[$i]['uuid'], $jsessionID);
             $i++;
         }
     }
 
-    function readChecklist($columnMin, $columnMax, $Row, $key, $uuid, $jsessionID){
+    /*function insertUpdateToItem( $jsonItem, $dataName, $jsessionID ){
 
-        global $Columns;
-        $metadata = "";
+        $names = getIdsAndNames($jsessionID);
+        $listOfNames = json_decode($names, true);
 
-        for( $i = $columnMin; $i <= $columnMax; $i++ ){
+        for($i=0; $i < count($listOfNames); $i++){
 
-            if( $Row[$i] != "" ){
+            if( $listOfNames[$i]['name'] == $dataName ){
 
-                $metadata = array( array( 'key' => $key, 'value' => $Columns[$i] ) );
-                $jsonItem = json_encode($metadata);
-                postMetadataToItem( $jsonItem, $uuid, $jsessionID );
+                updateItem($jsonItem, $listOfNames[$i]['uuid'], $jsessionID);
             }
         }
-    }
+    }*/
 
-    function readRadioButton($columnMin, $columnMax, $Row){
-
-        global $Columns;
-
-        for( $i = $columnMin; $i <= $columnMax; $i++ ){
-
-            if( $Row[$i] != "" ){
-                return $Columns[$i];
-            }
-        }
-
-        return "";
-    }
+    echo "<p>".$output."</p>";
 
 ?>

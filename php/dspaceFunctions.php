@@ -1,17 +1,31 @@
 <?php
 
-	function config($propertie){
+	
 
-	    switch ($propertie){
-            case 'dspace.ip':
-                return "localhost";
-                break;
-            case 'dspace.port':
-                return "8080";
-                break;
-            default:
-                break;
+    function getUserSessionID(){
+
+        // user session
+        $ch = curl_init("http://".config('dspace.ip').":".config('dspace.port')."/rest/status");
+        curl_setopt ($ch, CURLOPT_COOKIEJAR, 'cookie.txt');
+        //curl_setopt($ch, CURLOPT_COOKIEFILE, 'cookie.txt'); // quitar esto y aparece el jsession
+        curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HEADER, true);
+        $userResults = curl_exec ($ch);
+        echo "<p>".$userResults."</p>";
+
+        // get jsessionid cookie
+        preg_match_all('/^Set-Cookie:\s*([^;]*)/mi', $userResults, $matches);
+        $cookies = array();
+        foreach($matches[1] as $item) {
+            parse_str($item, $cookie);
+            $cookies = array_merge($cookies, $cookie);
         }
+        var_dump($cookies);
+        $jsessionID = $cookies['JSESSIONID'];
+        echo $jsessionID;
+
+        curl_close ($ch);
+        return $jsessionID;
     }
 
     function loginToDspace(){
@@ -21,7 +35,7 @@
 
         curl_setopt($ch, CURLOPT_URL, "http://".config('dspace.ip').":".config('dspace.port')."/rest/login");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, "email=jose44_sp@hotmail.com&password=dsp.1_ace");
+        curl_setopt($ch, CURLOPT_POSTFIELDS, config('dspace.login'));
         curl_setopt($ch, CURLOPT_POST, 1);
 
         $headers = array();
@@ -53,32 +67,6 @@
 
         curl_close ($ch);
     }
-
-    function getUserSessionID(){
-
-        // user session
-        $ch = curl_init("http://".config('dspace.ip').":".config('dspace.port')."/rest/status");
-        curl_setopt ($ch, CURLOPT_COOKIEJAR, 'cookie.txt');
-        //curl_setopt($ch, CURLOPT_COOKIEFILE, 'cookie.txt'); // quitar esto y aparece el jsession
-        curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_HEADER, true);
-        $userResults = curl_exec ($ch);
-        echo "<p>".$userResults."</p>";
-
-        // get jsessionid cookie
-        preg_match_all('/^Set-Cookie:\s*([^;]*)/mi', $userResults, $matches);
-        $cookies = array();
-        foreach($matches[1] as $item) {
-            parse_str($item, $cookie);
-            $cookies = array_merge($cookies, $cookie);
-        }
-        var_dump($cookies);
-        $jsessionID = $cookies['JSESSIONID'];
-        echo $jsessionID;
-
-        curl_close ($ch);
-        return $jsessionID;
-    }
 	
 	/**
      * Send an Item to the dspace server.
@@ -87,7 +75,6 @@
      * @return mixed|string
      * @throws \Exception
      */
-
     function uploadItem($dspaceItem, $collectionDspaceId, $jsessionID){
 
         /**
@@ -168,7 +155,7 @@
 
     function updateItem($dspaceItem, $itemId, $jsessionID){
 
-        $url = "http://localhost:8080/rest/items/$itemId/metadata";
+        $url = "http://".config('dspace.ip').":".config('dspace.port')."/rest/items/$itemId/metadata";
 
         $ch = curl_init($url);
 
@@ -237,9 +224,46 @@
         return $result;
     }
 
-    function getIdsAndNames($jsessionID){
+    function uploadPhotoExcel($itemId, $itemDescription, $filename, $filepath, $jsessionID){
 
-        $url = "http://localhost:8080/rest/items/?limit=200";
+        $name = urlencode($filename);
+        $description = urlencode($itemDescription);
+
+        $url = "http://".config('dspace.ip').":".config('dspace.port')."/rest/items/$itemId/bitstreams?name=$name&description=$description";
+
+        $ch = curl_init($url);
+
+        $cookieses = "JSESSIONID=".$jsessionID;
+        $headers = array("Content-Type: text/plain", "Accept: application/json");
+
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+        //curl_setopt($ch, CURLOPT_POSTFIELDS, file_get_contents($filepath));
+        curl_setopt($ch, CURLOPT_POSTFIELDS, file_get_contents( realpath($filepath) ));
+
+        curl_setopt($ch, CURLOPT_COOKIE, $cookieses);
+
+        curl_setopt($ch, CURLINFO_HEADER_OUT, true);
+
+        $result = curl_exec($ch);
+
+        if (curl_getinfo($ch, CURLINFO_HTTP_CODE) != '200'){
+
+            echo curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            exit();
+        }
+
+        $headerSent = curl_getinfo($ch, CURLINFO_HEADER_OUT );
+        echo "<p>".$headerSent."</p>";
+
+        curl_close($ch);
+        return $result;
+    }
+
+    function getItems($jsessionID){
+
+        $url = "http://".config('dspace.ip').":".config('dspace.port')."/rest/items/?limit=200";
 
         $ch = curl_init($url);
 
@@ -262,7 +286,7 @@
 
     function getItemMetadata($itemId, $jsessionID){
 
-        $url = "http://localhost:8080/rest/items/$itemId/metadata";
+        $url = "http://".config('dspace.ip').":".config('dspace.port')."/rest/items/$itemId/metadata";
 
         $ch = curl_init($url);
 
@@ -283,5 +307,27 @@
         return $result;
     }
 
+    function deleteItem( $itemID, $jsessionID ){
+
+        $url = "http://".config('dspace.ip').":".config('dspace.port')."/rest/items/$itemID";
+
+        $ch = curl_init($url);
+
+        $cookieses = "JSESSIONID=".$jsessionID;
+
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_COOKIE, $cookieses);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
+
+        $result = curl_exec($ch);
+
+        if (curl_getinfo($ch, CURLINFO_HTTP_CODE) != '200'){
+            //throw $this->getException($ch);
+            echo curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            exit();
+        }
+
+        curl_close($ch);
+    }
 
 ?>

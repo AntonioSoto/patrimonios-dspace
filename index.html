@@ -1,0 +1,60 @@
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <title>Dspace requests</title>
+	</head>
+	
+	<body>
+        <!-- Importar datos en formato Excel al Repositorio Dspace -->
+        <form method="post" action="php/importItems.php" enctype="multipart/form-data">
+            <table border="1">
+                <tr>
+                    <td>Metadatos en Excel: </td>
+                    <td><input name="excelFile" type="file" id="excelFile"/></td>
+                </tr>
+            </table>
+            <input type="submit" name="btn_importItems" value="Importar datos (de Excel a Dspace)">
+        </form>
+
+        <br/>
+
+        <!-- Actualizar datos en formato Excel hacia el Repositorio Dspace -->
+        <form method="post" action="php/updateItems.php" enctype="multipart/form-data">
+            <table border="1">
+                <tr>
+                    <td>Metadatos en Excel: </td>
+                    <td><input name="excelFile" type="file" id="excelFile2"/></td>
+                </tr>
+            </table>
+            <input type="submit" name="btn_refreshItems" value="Actualizar datos (de Excel a Dspace)">
+        </form>
+
+        <br/>
+
+        <!-- Importar bitstreams en formato Excel al Repositorio Dspace -->
+        <form method="post" action="php/importBitstreams.php" enctype="multipart/form-data">
+            <table border="1">
+                <tr>
+                    <td>Fotos/Archivos en Excel: </td>
+                    <td><input name="excelFile" type="file" id="excelFile3"/></td>
+                </tr>
+            </table>
+            <input type="submit" name="btn_importBitstreams" value="Importar bitstreams (de Excel a Dspace)">
+        </form>
+
+        <br/>
+
+        <!-- Eliminar todos los datos del Repositorio Dspace -->
+        <form method="post" action="php/deleteItems.php">
+            <input type="submit" name="btn_deleteItems" value="Eliminar todos los items de Dspace">
+        </form>
+
+        <br/>
+
+        <!-- Calcular e Insertar latitud y longitud a todos los Items del Repositorio Dspace -->
+        <form method="post" action="php/insertLatLngs.php">
+            <input type="submit" name="btn_insertLatLngs" value="Insertar Lat y Long a todos los items de Dspace">
+        </form>
+		
+	</body>
+</html>

@@ -1,5 +1,7 @@
 <?php
 
+    // Código no utilizado.
+
     include 'functions/exportFunctions.php';
 
     if( isset($_REQUEST["btn_excel"]) ){
@@ -38,7 +40,7 @@
         $jsessionID = getUserSessionID();
         loginToDspace();
 
-        $listOfItems = json_decode(getIdsAndNames($jsessionID),true);
+        $listOfItems = json_decode(getItems($jsessionID),true);
         //var_dump($listOfItems);
 
         $data = array();
